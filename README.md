@@ -1,2 +1,1 @@
-# ericahrtmann.github.io
-Capstone Project Page
+# capstone-project-page
