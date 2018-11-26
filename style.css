@@ -7,6 +7,15 @@ p {
   line-height: 1.5em;
 }
 
+a {
+  color: #005ca8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fcce31;
+}
+
 .nav {
     position: fixed;
     background-color: white;
@@ -55,14 +64,14 @@ p {
 }
 
 .description {
-  background-color: #ffaeae;
+  background-color: white;
 }
 
 .description h1 {
   text-align: center;
   padding-top: 50px;
   font-size: 48px;
-  color: white;
+  color: #ffaeae;
 }
 
 .description p {
@@ -72,26 +81,10 @@ p {
   color: black;
   font-size: 14px;
   font-style: bold;
-  background-color: #ffaeae;
+  background-color: white;
   text-align: center;
 }
 
-.presentation h1 {
-  text-align: center;
-  padding-top: 50px;
-  font-size: 48px;
-  color: #ff9124;
-}
-
-.presentation p {
-  padding-right: 250px;
-  padding-left: 250px;
-  padding-bottom: 50px;
-  color: black;
-  font-size: 14px;
-  font-style: bold;
-  text-align: center;
-}
 
   .process {
     background-color: #ffaeae;
@@ -123,11 +116,10 @@ p {
   }
 
 .process img {
-  max-width: 80%;
+  max-width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 5px;
 }
 
   .video {
